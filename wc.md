@@ -114,14 +114,14 @@ void optionManager(FILE* file,char* argv[],int argc){
 				return;
 			}
 			char line[MAX_CHAR];
-            int max_length = 0;
-            while (fgets(line, MAX_CHAR, file)) {
-                int length = strlen(line);
-                if (length > max_length) {
-                    max_length = length;
-                }
-            }
-            printf("%d %s\n", max_length-1, argv[2]);
+                        int max_length = 0;
+                        while (fgets(line, MAX_CHAR, file)) {
+                            int length = strlen(line);
+                            if (length > max_length) {
+                                max_length = length;
+                            }
+                        }
+                        printf("%d %s\n", max_length-1, argv[2]);
 			fclose(file);
 		}
 	}
