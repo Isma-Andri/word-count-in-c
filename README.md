@@ -1,1 +1,0 @@
-# word-count-in-c
