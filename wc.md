@@ -1,4 +1,4 @@
-# word-count-in-c
+# wc en c (par Ismael ANDRIMALALA)
 ```c
 #include <stdio.h>
 #include <stdlib.h>
