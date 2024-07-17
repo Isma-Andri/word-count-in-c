@@ -1,4 +1,4 @@
-# wc en c (par Ismael ANDRIMALALA)
+# wc en c 
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -127,3 +127,4 @@ void optionManager(FILE* file,char* argv[],int argc){
 	}
 }
 ```
+## Ismaël 
